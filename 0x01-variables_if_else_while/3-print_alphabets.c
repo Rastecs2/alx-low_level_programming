@@ -16,7 +16,7 @@ int main(void)
 		l = tolower(n);
 		r = toupper(n);
 		putchar(l);
-		putchar(n);
+		putchar(r);
 		n++;
 	}
 	putchar('\n');
