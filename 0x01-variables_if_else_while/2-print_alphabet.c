@@ -1,10 +1,13 @@
 #include<stdio.h>
 
 int main(void){
-	for(int n = 'A';n <= 'Z';n++)
+	int n = 'A';
+
+	while(n <= 'Z')
 	{
 		l = tolower(n);
-		putchar(l);
+		n += 1;
 	}
+	putchar(l);
 	return (0);
 }
