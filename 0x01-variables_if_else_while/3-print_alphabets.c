@@ -9,15 +9,19 @@
 int main(void)
 {
 	char n = 'A';
+	char z = 'a';
 	char l, r;
-	
 	while (n <= 'Z')
 	{
 		l = tolower(n);
-		r = toupper(n);
 		putchar(l);
-		putchar(r);
 		n++;
+	}
+	while (z <= 'z')
+	{
+		r = toupper(z);
+		putchar(r);
+		z++;
 	}
 	putchar('\n');
 	return (0);
