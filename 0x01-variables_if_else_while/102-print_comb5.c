@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Return: program that prints all possible combinations of two two-digit numbers
+ * Return: prints all possible combinations of two two-digit numbers
  */
 int main(void)
 {
