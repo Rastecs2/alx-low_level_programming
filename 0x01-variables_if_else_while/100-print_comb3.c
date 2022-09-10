@@ -12,14 +12,17 @@ int main(void)
 
 	for (n = '0'; n <= '9'; n++)
 	{
-		if (n < l)
+		for (l = '0'; l <= '9'; i++)
 		{
-			putchar(n);
-			putchar(l);
-			if (n != '8' || (n == '8' && l != '9'))
+			if (n < l)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(n);
+				putchar(l);
+				if (n != '8' || (n == '8' && l != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
