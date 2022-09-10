@@ -7,14 +7,15 @@
  */
 
 int main(void){
+
 	int n = 'A';
 	int l;
 
-	while(n <= 'Z')
+	while (n <= 'Z')
 	{
 		l = tolower(n);
-		n ++;
 		putchar(l);
+		n ++;
 	}
 	return (0);
 }
