@@ -6,7 +6,7 @@
  * Return: prints all possible different combinations of two digits
  */
 
-in main(void)
+int main(void)
 {
 	int l, n;
 
@@ -16,13 +16,13 @@ in main(void)
 		{
 			putchar(n);
 			putchar(l);
-			if (n != '8' || (n == '8' && i != '9'))
+			if (n != '8' || (n == '8' && l != '9'))
 			{
 				putchar(',');
 				putchar(' ');
 			}
 		}
 	}
-	putchar("\n");
+	putchar('\n');
 	return(0);
 }
