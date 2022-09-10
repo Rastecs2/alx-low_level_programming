@@ -11,6 +11,7 @@ int main(void)
 	char n = 'A';
 	char z = 'a';
 	char l, r;
+
 	while (n <= 'Z')
 	{
 		l = tolower(n);
