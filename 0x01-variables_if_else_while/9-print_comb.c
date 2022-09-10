@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Return: program that prints all possible combinations of single-digit numbers
+ * Return: prints all possible combinations of single-digit numbers
  */
 
 int main(void)
