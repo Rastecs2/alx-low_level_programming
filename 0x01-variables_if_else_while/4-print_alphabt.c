@@ -25,6 +25,7 @@ int main(void)
 		}
 		l = tolower(n);
 		putchar(l);
+		n++;
 	}
 	putchar('\n');
 	return (0);
