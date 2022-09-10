@@ -9,12 +9,11 @@
 int main(void)
 {
         int n;
+	int l;
 
         srand(time(0));
         n = rand() - RAND_MAX / 2;
         /* if statements to find out if the last digit of n is >5, ==0, <6 */
-	int l;
-
 	l = n % 10;
 	if (l > 5)
         {
