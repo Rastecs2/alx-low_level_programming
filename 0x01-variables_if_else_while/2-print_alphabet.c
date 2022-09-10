@@ -6,7 +6,8 @@
  * Return: program to convert an alphabet to capital letter
  */
 
-int main(void) {
+int main(void)
+{
 
 	int n = 'A';
 	int l;
