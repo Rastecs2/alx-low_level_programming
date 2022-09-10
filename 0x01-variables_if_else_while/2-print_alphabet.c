@@ -2,6 +2,7 @@
 
 int main(void){
 	int n = 'A';
+	int l;
 
 	while(n <= 'Z')
 	{
