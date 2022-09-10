@@ -3,10 +3,10 @@
 /**
  * main - Entry point
  *
- * Return Always 0 (Success)
+ * Return: program to convert an alphabet to capital letter
  */
 
-int main(void){
+int main(void) {
 
 	int n = 'A';
 	int l;
@@ -15,7 +15,7 @@ int main(void){
 	{
 		l = tolower(n);
 		putchar(l);
-		n ++;
+		n++;
 	}
 	return (0);
 }
