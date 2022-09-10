@@ -9,9 +9,9 @@
 int main(void)
 {
 	int r;
-	int = 0;
+	int = (0);
 	
-	while (r <= 9)
+	while (r < 10)
 	{
 		putchar(r);
 		r++;
