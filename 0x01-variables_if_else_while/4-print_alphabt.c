@@ -13,7 +13,7 @@ int main(void)
 
 	while (n <= 'Z')
 	{
-		if (n == 'Z')
+		if (n == 'Q')
 		{
 			n++;
 			continue;
