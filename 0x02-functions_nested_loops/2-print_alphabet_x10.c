@@ -12,7 +12,7 @@ void print_alphabet_x10(void)
 	/*local variable declaration */
 	int i;
 
-	i = 0;
+	i = 1;
 	/* while loop to print 10 lines */
 	while(i <= 10)
 	{
@@ -30,4 +30,5 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 		i++;
 	}
+	_putchar('\n');
 }
