@@ -8,9 +8,12 @@
 void print_alphabet(void)
 {
 	/* declare the variables */
-	for (int i = 'a'; i <= 'z'; i++)
+	int i;
+	i = 'a';
+	while(i <= 'z')
 	{
 		/*call the putchar function */
 		_putchar(i);
+		i++;
 	}
 }
