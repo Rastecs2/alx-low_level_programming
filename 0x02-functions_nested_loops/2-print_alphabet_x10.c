@@ -14,19 +14,18 @@ void print_alphabet_x10(void)
 
 	i = 1;
 	/* while loop to print 10 lines */
-	while(i <= 10)
+	while (i <= 10)
 	{
 		/* local variable declaration */
 		int n;
 
 		n = 'a';
 		/*while loop to print alphabet */
-		while(n <= 'z')
+		while (n <= 'z')
 		{
 			_putchar(n);
 			n++;
 		}
-		
 		_putchar('\n');
 		i++;
 	}
