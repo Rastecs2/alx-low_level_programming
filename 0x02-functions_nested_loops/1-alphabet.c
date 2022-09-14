@@ -4,8 +4,13 @@
  *
  * Return: none
  */
-/* declare the function */
-for (int i = 'a'; i <= 'z'; i++)
+/* function outputs alphabets */
+void print_alphabet(void)
 {
-	_putchar(i);
+	/* declare the variables */
+	for (int i = 'a'; i <= 'z'; i++)
+	{
+		/*call the putchar function */
+		_putchar(i);
+	}
 }
