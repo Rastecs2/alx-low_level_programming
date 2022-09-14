@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main -this function prints alphabets in rows of 10
+ * print_alphabet_x10 - this function prints alphabets in rows of 10
  *
  * Return: void
  */
