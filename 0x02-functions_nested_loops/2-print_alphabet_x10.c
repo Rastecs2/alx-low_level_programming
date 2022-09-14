@@ -1,4 +1,4 @@
-#include "mmain.h"
+#include "main.h"
 
 /**
  * main -this function prints alphabets in rows of 10
