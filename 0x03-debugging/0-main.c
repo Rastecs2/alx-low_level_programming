@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - test the function positive_or_negative
- * Return: 0
+ * main - Entry point
+ * Return: 0 || positive || negative
  */
 int main(void)
 {
