@@ -9,7 +9,9 @@
 void print_numbers(void)
 {
 	/* loval variable declaration*/
-	for (int i = '0'; i <= '9'; i++)
+	int i;
+
+	for (i = '0'; i <= '9'; i++)
 	{
 		_putchar(i);
 	}
