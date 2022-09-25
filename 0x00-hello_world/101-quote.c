@@ -4,7 +4,6 @@
  *
  * Return: Always 1 (success)
  */
-
 int main(void)
 {
 	char str1[] = "and the piece of art is useful\" - Dora Korpar, 2015-10-19\n";
