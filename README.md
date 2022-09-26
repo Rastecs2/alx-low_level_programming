@@ -1,1 +1,1 @@
-this repository contains my alx low level programming in c folder
+ This directory contains more on pointers and arrays and also contains multidimensional arrays 
