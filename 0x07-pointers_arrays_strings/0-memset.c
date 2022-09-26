@@ -1,0 +1,24 @@
+#include "main.h"
+/**
+ * _memset - fills memory with a constant byte
+ * @s: pointer to the object to copy character
+ * @b: character to copy
+ * @n: number of times to copy
+ *
+ * Return: character n times
+ */
+char *_memset(char *s, char b, unsigned int n)
+{
+	char s[];
+	int i;
+
+	for (i = 0; i <= n; i++)
+	{
+		s[i] = b;
+	}
+	for (i = 0; i <= n; i++)
+	{
+		s[i];
+	}
+	return (s[i]);
+}
