@@ -16,6 +16,10 @@ int sqr(int n, int i)
 	{
 		return (sqr(n, i+1));
 	}
+	else
+	{
+		return (-1)
+	}
 }
 int _sqrt_recursion(int n)
 {
