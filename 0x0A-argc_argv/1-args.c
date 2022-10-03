@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints its name, followed by a new line.
+ * main - prints the number of arguments passed into it.
  * @argc : arguments/ inputs to the function
  * @argv : array
  * Return: Always 0 (Success)
