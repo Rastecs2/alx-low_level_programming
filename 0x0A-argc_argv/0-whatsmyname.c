@@ -5,9 +5,10 @@
  * @argv : array
  * Return : 0 (Success)
  */
-int main
+int main(void)
 {
-	(void)argc;
+	int argc;
+
 	printf("%s\n", argv[0]);
 	return (0);
 }
