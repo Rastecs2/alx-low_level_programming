@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * main - multiplies two numbers.
+ * main - adds positive numbers.
  * @argc : arguments/ inputs to the function
  * @argv : array
  * Return: Always 0 (Success) and 1 (fail)
