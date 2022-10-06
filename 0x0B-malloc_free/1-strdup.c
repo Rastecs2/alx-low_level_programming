@@ -2,8 +2,7 @@
 #include <stdlib.h>
 /**
   * _strdup - returns a pointer to a newly space in memory with a copy string
-  * @str: string 
-  *
+  * @str: string
   * Return: string
   */
 char *_strdup(char *str)
