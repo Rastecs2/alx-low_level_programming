@@ -1,3 +1,4 @@
+#include <stdbool.h>
 #include <stddef.h>
 #include "function_pointers.h"
 /**
