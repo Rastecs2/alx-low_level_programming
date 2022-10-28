@@ -10,7 +10,7 @@
 size_t print_listint(const listint_t *h)
 {
 	/* size pointer */
-	size_t node_count = 1;
+	size_t nodes_count = 1;
 
 	/* if h equals null return 0 */
 	if (h == NULL)
@@ -24,11 +24,11 @@ size_t print_listint(const listint_t *h)
 		/* traverse to the next node */
 		h = h->next;
 		/* keep count on the number of nodes */
-		node_count++;
+		nodes_count++;
 	}
 	/* print the final/last node */
 	printf("%d\n", h->n);
 
 	/* return the number of nodes */
-	return (node_count);
+	return (nodes_count);
 }
