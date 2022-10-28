@@ -15,7 +15,7 @@ size_t print_listint(const listint_t *h)
 	/* if h equals null return 0 */
 	if (h == NULL)
 		return (0);
-	
+
 	/* if h is not null then print the values in nodes */
 	while (h->next != NULL)
 	{
